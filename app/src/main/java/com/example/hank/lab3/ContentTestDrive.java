@@ -20,7 +20,6 @@ import java.io.IOException;
  */
 public class ContentTestDrive extends Fragment {
     View v;
-    String LOG_TAG = "popsLog";
     ImageButton buttonGazz;
     ImageButton buttonTormoza;
     TextView tvSpeed;
@@ -96,15 +95,15 @@ public class ContentTestDrive extends Fragment {
                 mediaPlayer.setLooping(true);
                 mediaPlayer.start();
                 break;
-            case 50:
+            case 30:
                 releaseMP();
                 mediaPlayer = MediaPlayer.create(v.getContext(), R.raw.s02);
                 mediaPlayer.setLooping(true);
                 mediaPlayer.start();
                 break;
-            case 100:
+            case 70:
                 releaseMP();
-                mediaPlayer = MediaPlayer.create(v.getContext(), R.raw.s04);
+                mediaPlayer = MediaPlayer.create(v.getContext(), R.raw.s03);
                 mediaPlayer.setLooping(true);
                 mediaPlayer.start();
                 break;
