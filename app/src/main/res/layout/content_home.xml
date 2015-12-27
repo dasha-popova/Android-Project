@@ -134,13 +134,6 @@
 
                 </LinearLayout>
 
-                <WebView
-                    android:layout_width="match_parent"
-                    android:layout_height="450dp"
-                    android:id="@+id/webView"
-                    android:layout_gravity="center_horizontal"
-                    android:clickable="false"
-                    android:focusable="false" />
             </LinearLayout>
         </ScrollView>
 
